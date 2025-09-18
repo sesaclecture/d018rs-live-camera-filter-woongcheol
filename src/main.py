@@ -20,6 +20,8 @@ if __name__ == "__main__":
         # Current filter's name
         filter_name = filters.get_current_filter_name()
 
+        print(filter_name)
+
         # Apply the filter.
         filtered_frame = filters.apply_filter(frame, filter_name)
 
